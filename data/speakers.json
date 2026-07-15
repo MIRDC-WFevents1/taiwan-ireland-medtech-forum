@@ -1,0 +1,38 @@
+[
+  {
+    "id": "isaac-middelmann",
+    "name": "Isaac Middelmann",
+    "honorific": "Mr.",
+    "degree": "",
+    "title": "Co-Founder & President",
+    "organization": "Resonance Health Europe",
+    "photoClass": "speaker-photo--isaac"
+  },
+  {
+    "id": "jamie-meehan",
+    "name": "Jamie Meehan",
+    "honorific": "Dr.",
+    "degree": "PhD",
+    "title": "Head",
+    "organization": "MET Gateway",
+    "photoClass": "speaker-photo--jamie"
+  },
+  {
+    "id": "vanessa-bittencourt",
+    "name": "Vanessa Bittencourt",
+    "honorific": "Dr.",
+    "degree": "PhD",
+    "title": "Clinical Research Program Manager",
+    "organization": "UCD School of Medicine",
+    "photoClass": "speaker-photo--vanessa"
+  },
+  {
+    "id": "ethan-huang",
+    "name": "Ethan Huang",
+    "honorific": "Dr.",
+    "degree": "PhD",
+    "title": "Technical Director",
+    "organization": "Medtex Medsolution",
+    "photoClass": "speaker-photo--ethan"
+  }
+]

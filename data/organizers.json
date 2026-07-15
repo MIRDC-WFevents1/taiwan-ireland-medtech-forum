@@ -1,0 +1,19 @@
+{
+  "organizer": {
+    "nameZh": "經濟部產業技術司",
+    "nameEn": "Department of Industrial Technology, MOEA",
+    "logo": "assets/images/doit-logo.gif"
+  },
+  "coOrganizers": [
+    {
+      "nameZh": "金屬工業研究發展中心",
+      "nameEn": "Metal Industries Research & Development Centre",
+      "logo": "assets/images/mirdc-logo.jpg"
+    },
+    {
+      "nameZh": "Medtex Medsolution",
+      "nameEn": "Medtex Medsolution",
+      "logo": "assets/images/medtex-logo.jpg"
+    }
+  ]
+}

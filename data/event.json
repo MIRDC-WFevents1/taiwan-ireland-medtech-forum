@@ -1,0 +1,44 @@
+{
+  "titleZh": "2026 臺愛醫療科技創新合作論壇",
+  "titleEn": "Taiwan–Ireland Innovation MedTech Collaboration",
+  "seriesEn": "BIO Asia–Taiwan 2026 Satellite Symposia",
+  "date": "2026-07-17",
+  "dateDisplayZh": "2026.07.17（五）",
+  "dateDisplayEn": "Friday, July 17, 2026",
+  "checkInZh": "14:00 報到",
+  "checkInEn": "Registration 14:00",
+  "forumTimeZh": "14:30–17:00 論壇",
+  "forumTimeEn": "Forum 14:30–17:00",
+  "venueZh": "南港展覽館1館 404會議室",
+  "venueEn": "Room 404, TaiNEX 1",
+  "addressZh": "臺北市南港區經貿二路1號",
+  "addressEn": "No. 1, Jingmao 2nd Rd., Nangang District, Taipei City",
+  "registrationDeadlineZh": "報名截止：2026年7月16日",
+  "registrationDeadlineEn": "Registration closes July 16, 2026",
+  "registrationUrl": "https://www.mirdc.org.tw/ApplyEventDetail?MCode=V01&MID=20c18949-8fee-457d-a43d-e4bbeb8430a0&ID=67d7218a-6110-4364-a120-ef39e9b5f27e",
+  "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%B8%AF%E5%B1%95%E8%A6%BD%E9%A4%A81%E9%A4%A8",
+  "intro": [
+    "本場論壇匯集臺灣與愛爾蘭專家，共同探討醫療科技與藥物開發領域之合作契機，聚焦創新生態系、愛爾蘭作為歐洲市場門戶的角色，以及引領未來醫療發展的關鍵新興技術。",
+    "論壇亦將展現臺灣在智慧醫療與場域驗證之優勢，並探討跨國合作的實務推動路徑，涵蓋技術驗證與市場進入等關鍵環節，促進雙方由交流邁向實質合作。"
+  ],
+  "focusAreas": [
+    {
+      "number": "01",
+      "titleZh": "創新生態系",
+      "titleEn": "Innovation Ecosystem",
+      "description": "串聯臺灣與愛爾蘭的醫療科技研發、臨床及產業資源。"
+    },
+    {
+      "number": "02",
+      "titleZh": "歐洲市場門戶",
+      "titleEn": "Gateway to Europe",
+      "description": "掌握愛爾蘭醫材創新環境、法規趨勢與市場進入策略。"
+    },
+    {
+      "number": "03",
+      "titleZh": "驗證到落地",
+      "titleEn": "Validation to Market",
+      "description": "從場域驗證、臨床合作走向跨境夥伴關係與實質應用。"
+    }
+  ]
+}

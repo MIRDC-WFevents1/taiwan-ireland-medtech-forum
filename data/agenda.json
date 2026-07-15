@@ -1,0 +1,60 @@
+[
+  {
+    "time": "14:00–14:30",
+    "type": "arrival",
+    "titleZh": "報到",
+    "titleEn": "Admission"
+  },
+  {
+    "time": "14:30–14:35",
+    "type": "opening",
+    "titleZh": "開幕致詞暨合影",
+    "titleEn": "Opening Remarks & Group Photo",
+    "detailZh": "經濟部產業技術司",
+    "detailEn": "Department of Industrial Technology, MOEA"
+  },
+  {
+    "time": "14:35–15:05",
+    "type": "talk",
+    "topic": "Topic 1",
+    "titleZh": "從創新網絡到全球合作：臺灣與歐洲合作契機",
+    "titleEn": "From Innovation Networks to Global Collaboration: Opportunities for Taiwan–European Partnership",
+    "speakerId": "isaac-middelmann"
+  },
+  {
+    "time": "15:05–15:35",
+    "type": "talk",
+    "topic": "Topic 2",
+    "titleZh": "愛爾蘭如何加速全球醫材布局：次世代 MedTech 創新與國際市場進入策略",
+    "titleEn": "MET Accelerating Global Growth: Ireland’s Blueprint for NexGen MedTech Innovation and Market Access Opportunities",
+    "speakerId": "jamie-meehan"
+  },
+  {
+    "time": "15:35–16:05",
+    "type": "talk",
+    "topic": "Topic 3",
+    "titleZh": "歐洲醫療器材臨床試驗、法規趨勢與國際合作機會",
+    "titleEn": "Medical Device Clinical Trials: Regulation and Collaboration in Europe",
+    "speakerId": "vanessa-bittencourt"
+  },
+  {
+    "time": "16:05–16:35",
+    "type": "talk",
+    "topic": "Topic 4",
+    "titleZh": "愛爾蘭生醫產業現況與臺愛合作新契機",
+    "titleEn": "Ireland’s Biomedical Industry Landscape and Emerging Taiwan–Ireland Collaboration Opportunities",
+    "speakerId": "ethan-huang"
+  },
+  {
+    "time": "16:35–17:00",
+    "type": "panel",
+    "titleZh": "小組討論",
+    "titleEn": "Panel Discussion",
+    "moderatorId": "ethan-huang",
+    "panelistIds": [
+      "isaac-middelmann",
+      "jamie-meehan",
+      "vanessa-bittencourt"
+    ]
+  }
+]
