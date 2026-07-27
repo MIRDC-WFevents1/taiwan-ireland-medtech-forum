@@ -210,3 +210,69 @@ async function init() {
 }
 
 init();
+
+(() => {
+  function initScrollReveal() {
+    const style = document.createElement("style");
+
+    style.textContent = `
+      .wf-scroll-reveal {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+          opacity 0.7s ease,
+          transform 0.7s ease;
+      }
+
+      .wf-scroll-reveal.wf-is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .wf-scroll-reveal {
+          opacity: 1;
+          transform: none;
+          transition: none;
+        }
+      }
+    `;
+
+    document.head.appendChild(style);
+
+    const sections = document.querySelectorAll("section");
+
+    if (!("IntersectionObserver" in window)) {
+      sections.forEach((section) => {
+        section.classList.add("wf-is-visible");
+      });
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("wf-is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      {
+        threshold: 0.12,
+        rootMargin: "0px 0px -50px 0px"
+      }
+    );
+
+    sections.forEach((section) => {
+      section.classList.add("wf-scroll-reveal");
+      observer.observe(section);
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initScrollReveal);
+  } else {
+    initScrollReveal();
+  }
+})();
